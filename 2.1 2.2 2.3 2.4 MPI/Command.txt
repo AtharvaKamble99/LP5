@@ -1,0 +1,3 @@
+First Make sure that mpj folder is in the same folder of the project 
+javac -cp mpj/lib/mpj.jar FileName.java
+mpj/bin/mpjrun.bat -np 6 FileName

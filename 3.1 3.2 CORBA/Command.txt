@@ -1,0 +1,14 @@
+To make 
+import ServiceModule.*; Work First run the command 
+idlj -fall ServiceModule.idl
+
+javac ServiceModule/*.java ServiceImpl.java ServiceServer.java ServiceClient.java  
+- This will compile both manually written code as well as generated code . 
+
+tnameserv -ORBInitialPort 1050 
+- This starts the CORBA Naming Service on port 1050 . Leave this terminal running 
+
+
+java ServiceServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+java ServiceClient -ORBInitialPort 1050 -ORBInitialHost localhost - 

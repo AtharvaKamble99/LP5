@@ -1,0 +1,6 @@
+1st terminal
+javac Token_Mutual.java
+java Token_Mutual true localhost 5000 5001
+
+2nd terminal
+java Token_Mutual false localhost 5001 5000

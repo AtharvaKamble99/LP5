@@ -1,0 +1,5 @@
+module ServiceModule{
+    interface ServiceInterface{
+        string revString(in string inputStr);
+    };
+};
