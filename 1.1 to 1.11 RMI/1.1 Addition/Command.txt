@@ -1,0 +1,8 @@
+javac *.java
+rmiregistry - Leave the terminal running
+
+2nd Terminal
+java Server
+
+3rd Terminal
+java Client
